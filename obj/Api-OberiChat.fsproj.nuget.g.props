@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\adeyr\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\adeyr\.nuget\packages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\adeyr\.nuget\packages\fsharp.core\5.0.0</PkgFSharp_Core>
+    <PkgNpgsql Condition=" '$(PkgNpgsql)' == '' ">C:\Users\adeyr\.nuget\packages\npgsql\6.0.0</PkgNpgsql>
+    <PkgNpgsql_FSharp Condition=" '$(PkgNpgsql_FSharp)' == '' ">C:\Users\adeyr\.nuget\packages\npgsql.fsharp\4.1.0</PkgNpgsql_FSharp>
+    <PkgMicrosoft_EntityFrameworkCore Condition=" '$(PkgMicrosoft_EntityFrameworkCore)' == '' ">C:\Users\adeyr\.nuget\packages\microsoft.entityframeworkcore\2.2.0</PkgMicrosoft_EntityFrameworkCore>
+    <PkgNpgsql_EntityFrameworkCore_PostgreSQL Condition=" '$(PkgNpgsql_EntityFrameworkCore_PostgreSQL)' == '' ">C:\Users\adeyr\.nuget\packages\npgsql.entityframeworkcore.postgresql\2.2.0</PkgNpgsql_EntityFrameworkCore_PostgreSQL>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\adeyr\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_VisualStudio_Web_CodeGeneration_Design Condition=" '$(PkgMicrosoft_VisualStudio_Web_CodeGeneration_Design)' == '' ">C:\Users\adeyr\.nuget\packages\microsoft.visualstudio.web.codegeneration.design\2.2.0</PkgMicrosoft_VisualStudio_Web_CodeGeneration_Design>
+    <PkgDapper_FSharp Condition=" '$(PkgDapper_FSharp)' == '' ">C:\Users\adeyr\.nuget\packages\dapper.fsharp\3.1.0</PkgDapper_FSharp>
+  </PropertyGroup>
+</Project>
